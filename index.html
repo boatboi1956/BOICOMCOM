@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boicomcom</title>
+
+<style>
+
+html{
+    scroll-behavior: smooth;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-container article{
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+}
+
+.product-container img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-button{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.product-button:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+body{
+    background-color: #eaf4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    background-color: #0066cc;
+    padding: 12px;
+    text-align: right;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+section{
+    background-color: white;
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.product-container article:hover{
+    background-color: #d6ecff;
+}
+
+img{
+    border-radius: 8px;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th{
+    background-color: #003366;
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #d6ecff;
+}
+
+footer{
+    background-color: #003366;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>BOICOMCOM</h1>
+    <hr>
+
+</header>
+
+<nav>
+
+    <a href="#">หน้าแรก</a>
+    <a href="#products">สินค้า</a>
+    <a href="Promotion.html">โปรโมชั่น</a>
+    <a href="#about">เกี่ยวกับเรา</a>
+    <a href="#contact">ติดต่อเรา</a>
+
+</nav>
+
+<hr>
+
+<section>
+
+    <h2>Banner</h2>
+
+    <img src="Banner.jpg" alt="Banner" width="1150">
+
+</section>
+
+<hr>
+
+<section id="about">
+
+    <h2>เกี่ยวกับร้าน</h2>
+
+    <p>
+        ร้าน BOICOMCOM SHOP จำหน่ายคอมพิวเตอร์ โน๊ตบุ๊ก
+        อุปกรณ์เกมมิ่ง และอุปกรณ์ไอทีคุณภาพสูง
+    </p>
+
+</section>
+
+<hr>
+
+<section id="products">
+
+    <h2>สินค้าแนะนำ</h2>
+
+    <div class="product-container">
+
+
+        <article>
+
+            <img src="Gaming Computer.jpg" alt="Computer">
+
+            <h3>Gaming PC</h3>
+
+            <p>คอมพิวเตอร์สำหรับเล่นเกม</p>
+
+            <a href="Product-1.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+
+
+        <article>
+
+            <img src="Notebook.jpg" alt="Notebook">
+
+            <h3>Notebook</h3>
+
+            <p>โน๊ตบุ๊กสำหรับเรียนและทำงาน</p>
+
+            <a href="Product-2.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+
+
+        <article>
+
+            <img src="Keyboard.jpg" alt="Keyboard">
+
+            <h3>Mechanical Keyboard</h3>
+
+            <p>คีย์บอร์ดเกมมิ่ง</p>
+
+            <a href="Product-3.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+
+
+        <article>
+
+            <img src="MouseGaming.jpg" alt="Mouse">
+
+            <h3>Gaming Mouse</h3>
+
+            <p>เมาส์เกมมิ่ง</p>
+
+            <a href="Product-4.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+
+
+        <article>
+
+            <img src="Monitor.jpg" alt="Monitor">
+
+            <h3>Monitor</h3>
+
+            <p>จอภาพสำหรับคอมพิวเตอร์</p>
+
+            <a href="Product-5.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+
+
+        <article>
+
+            <img src="Headset.jpg" alt="Headset">
+
+            <h3>Headset</h3>
+
+            <p>หูฟังสำหรับเล่นเกม</p>
+
+            <a href="Product-6.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+
+        <article>
+
+            <img src="Webcam.jpg" alt="Webcam">
+
+            <h3>Webcam</h3>
+
+            <p>กล้องสำหรับคอมพิวเตอร์</p>
+
+            <a href="Product-7.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+
+        <!-- สินค้า 8 -->
+
+        <article>
+
+            <img src="Speaker.jpg" alt="Speaker">
+
+            <h3>Speaker</h3>
+
+            <p>ลำโพงสำหรับคอมพิวเตอร์</p>
+
+            <a href="Product-8.html" class="product-button">
+                ดูรายละเอียดสินค้า
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section>
+
+    <h2>ตารางรายการสินค้า</h2>
+
+    <table border="1">
+
+        <tr>
+
+            <th>รหัสสินค้า</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคา</th>
+
+        </tr>
+
+        <tr>
+
+            <td>P001</td>
+            <td>Gaming Computer</td>
+            <td>35,900 บาท</td>
+
+        </tr>
+
+        <tr>
+
+            <td>P002</td>
+            <td>Notebook</td>
+            <td>24,900 บาท</td>
+
+        </tr>
+
+        <tr>
+
+            <td>P003</td>
+            <td>Keyboard</td>
+            <td>2,490 บาท</td>
+
+        </tr>
+
+        <tr>
+
+            <td>P004</td>
+            <td>Gaming Mouse</td>
+            <td>1,290 บาท</td>
+
+        </tr>
+
+        <tr>
+
+            <td>P005</td>
+            <td>Monitor</td>
+            <td>5,990 บาท</td>
+
+        </tr>
+
+        <tr>
+
+            <td>P006</td>
+            <td>Headset</td>
+            <td>1,890 บาท</td>
+
+        </tr>
+
+        <tr>
+
+            <td>P007</td>
+            <td>Webcam</td>
+            <td>2,290 บาท</td>
+
+        </tr>
+
+        <tr>
+
+            <td>P008</td>
+            <td>Speaker</td>
+            <td>3,490 บาท</td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+<hr>
+
+<section id="contact">
+
+    <h2>ข้อมูลติดต่อ</h2>
+
+    <p>โทรศัพท์ : 044-123456</p>
+
+    <p>Email : computershop@gmail.com</p>
+
+    <p>Facebook : Computer Shop</p>
+
+</section>
+
+<hr>
+
+<footer>
+
+    <p>Copyright © 2026 Computer Shop</p>
+
+</footer>
+
+</body>
+
+</html>
